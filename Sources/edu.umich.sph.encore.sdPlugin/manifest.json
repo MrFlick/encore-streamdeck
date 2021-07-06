@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/actionimage", 
+      "Name": "Encore Queue", 
+      "States": [
+        {
+          "Image": "action/images/action",
+          "TitleAlignment": "middle" 
+        }
+      ], 
+      "Tooltip": "View queue job counts", 
+      "UUID": "edu.umich.sph.encore.status.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Matthew Flickinger", 
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "propertyinspector/index.html", 
+  "Description": "Monitor status of Encore analysis server", 
+  "Category": "Encore",
+  "Name": "Encore Status Monitor", 
+  "Icon": "action/images/action", 
+  "URL": "https://encore.sph.umich.edu", 
+  "Version": "0.0.1",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+  }
+}
